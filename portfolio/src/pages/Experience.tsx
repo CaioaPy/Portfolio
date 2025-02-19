@@ -4,10 +4,10 @@ import './Experience.css';
 
 function Experience() {
     return (
-        <>
+        <div className="start-container">
         <Navbar />
         <h1>Experience</h1>
-        </>
+        </div>
     );
 }
 

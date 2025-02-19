@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+  
+body, html {
+    height: 100%;
+    background-color: #000;
+    color: #fff
+  }
+
+button {
+    background-color: #213547;
+    color: #fff;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #747bff;
+}
+  
+@media (prefers-color-scheme: light) {
+    :root {
+      color: #213547;
+      background-color: #ffffff;
+    }
+    a:hover {
+      color: #747bff;
+    }
+}
