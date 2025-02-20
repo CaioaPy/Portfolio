@@ -3,4 +3,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
+}
+
+.introText {
+    font-size: 24px;
+    font-weight: 500;
+    color: #222;
+    text-align: center;
+    margin: 20px 0;
+}

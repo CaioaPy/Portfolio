@@ -4,10 +4,12 @@ import './Home.css';
 
 function Home() {
     return (
-        <div className="start-container">
+        <>
             <Navbar />
-            <h1>Home</h1>
-        </div>
+            <div className="start-container">
+                <h1 className="introText">Helloo! I'm Caio and this is my portfolio!</h1>
+            </div>
+        </>
     );
 }
 

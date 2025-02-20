@@ -7,13 +7,13 @@
   
 body, html {
     height: 100%;
-    background-color: #000;
-    color: #fff
+    background-color: #F8F9FA ;
+    color: #33312E 
   }
 
 button {
-    background-color: #213547;
-    color: #fff;
+    background-color: #FF6B00 ;
+    color: #33312E ;
     padding-right: 25px;
     padding-left: 25px;
     padding-top: 10px;
@@ -22,66 +22,39 @@ button {
 
 button:hover {
     cursor: pointer;
-    background-color: #747bff;
+    background-color: #A3DA2F;
 }
 
-@media (prefers-color-scheme: light) {
-    :root {
-      color: #213547;
-      background-color: #ffffff;
-    }
-    a:hover {
-      color: #747bff;
-    }
-}
 .navbar {
-  background-color: #222;
+  background-color: #E1E1E1;
   padding: 15px 0;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   position: fixed;
   width: 100%;
   top: 0;
-  z-index: 1000;
+  display: flex;
+  justify-content: center;
+}
+
+.navbarH1 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #33312E;
+  margin-left: 20px;
+  display: flex;
+  justify-content: left;
+  padding: 0 20px;
+  margin-top: 10px;
+  flex: 1;
 }
 
 .navContainer {
   display: flex;
-  justify-content: space-between;
+  justify-content: right;
   align-items: center;
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 20px;
-}
-
-.navLogo {
-  font-size: 24px;
-  font-weight: bold;
-  color: #fff !important;
-  text-decoration: none;
-  transition: color 0.3s;
-}
-
-.navLogo:hover {
-  color: #ffcc00 !important;
-}
-
-.navLink {
-  font-size: 18px;
-  font-weight: 500;
-  color: #ddd !important;
-  text-decoration: none !important;
-  padding: 8px 15px;
-  border-radius: 5px;
-  transition: background 0.3s, color 0.3s;
-}
-
-.navLink:visited {
-  color: #ddd !important;
-}
-
-.navLink:hover {
-  background: #ffcc00 !important;
-  color: #222 !important;
 }
 
 @media (max-width: 768px) {
