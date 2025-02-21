@@ -8,12 +8,12 @@
 body, html {
     height: 100%;
     background-color: #F8F9FA ;
-    color: #33312E 
+    color: #3F454B; 
   }
 
 button {
-    background-color: #FF6B00 ;
-    color: #33312E ;
+    background-color: #B59662 ;
+    color: #3F454B ;
     padding-right: 25px;
     padding-left: 25px;
     padding-top: 10px;
@@ -22,44 +22,5 @@ button {
 
 button:hover {
     cursor: pointer;
-    background-color: #A3DA2F;
-}
-
-.navbar {
-  background-color: #E1E1E1;
-  padding: 15px 0;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-  position: fixed;
-  width: 100%;
-  top: 0;
-  display: flex;
-  justify-content: center;
-}
-
-.navbarH1 {
-  font-size: 24px;
-  font-weight: 500;
-  color: #33312E;
-  margin-left: 20px;
-  display: flex;
-  justify-content: left;
-  padding: 0 20px;
-  margin-top: 10px;
-  flex: 1;
-}
-
-.navContainer {
-  display: flex;
-  justify-content: right;
-  align-items: center;
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-@media (max-width: 768px) {
-  .navContainer {
-    flex-direction: column;
-    gap: 10px;
-  }
+    background-color: #F5B447;
 }
