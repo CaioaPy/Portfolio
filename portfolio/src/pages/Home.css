@@ -1,14 +1,22 @@
-.start-container {
+.startContainerHome {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center; 
     justify-content: center;
-    align-items: center;
+    height: 100vh; 
 }
 
 .introText {
     font-size: 24px;
     font-weight: 500;
     color: #222;
-    text-align: center;
-    margin: 20px 0;
+    margin: 20px;
+    flex: 2;
+}
+
+.imgIntro {
+    width: 50%;
+    height: auto;
+    margin: 20px;
+    flex: 0;
 }
