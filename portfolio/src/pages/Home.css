@@ -27,7 +27,6 @@
     color: #222;
     margin: 20px;
     flex: 2;
-    margin-bottom: 45vh;
     max-width: 25%;
 }
 
@@ -35,8 +34,16 @@
     font-size: 36px;
     font-weight: 550;
     color: #222;
-    margin: 5px;
     flex: 2;
+    margin-bottom: 20px;
+}
+
+.introText {
+    font-size: 24px;
+    font-weight: 500;
+    color: #222;
+    flex: 3;
+    margin-top: 20px;
 }
 
 .introIcons {
@@ -60,14 +67,6 @@
     border-radius: 5px;
 }
 
-.introText {
-    font-size: 24px;
-    font-weight: 500;
-    color: #222;
-    margin: 20px;
-    flex: 3;
-    max-width: 20%;
-}
 
 
 .secondContainerHome {
