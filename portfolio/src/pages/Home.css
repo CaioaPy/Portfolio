@@ -9,11 +9,66 @@
 .startContainerHome {
     display: flex;
     flex-direction: row;
-    align-items: center; 
-    justify-content: center;
+    align-items: center;
     height: 100vh; 
     margin-left: 12vh;
 }
+
+.imgIntro {
+    width: 50%;
+    height: auto;
+    margin: 20px;
+    flex: 0;
+}
+
+.introTitle {
+    font-size: 48px;
+    font-weight: 650;
+    color: #222;
+    margin: 20px;
+    flex: 2;
+    margin-bottom: 45vh;
+    max-width: 25%;
+}
+
+.introSubtitle {
+    font-size: 36px;
+    font-weight: 550;
+    color: #222;
+    margin: 5px;
+    flex: 2;
+}
+
+.introIcons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    flex: 2;
+}
+
+.introIcons button {
+    background-color: #6482A0;
+    color: white;
+    border: none;
+    padding: 30px 30px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.introText {
+    font-size: 24px;
+    font-weight: 500;
+    color: #222;
+    margin: 20px;
+    flex: 3;
+    max-width: 20%;
+}
+
 
 .secondContainerHome {
     display: flex;
@@ -22,19 +77,4 @@
     justify-content: center;
     height: 100vh; 
     background-color: #6482A0;
-}
-
-.introText {
-    font-size: 24px;
-    font-weight: 500;
-    color: #222;
-    margin: 20px;
-    flex: 2;
-}
-
-.imgIntro {
-    width: 50%;
-    height: auto;
-    margin: 20px;
-    flex: 0;
 }
