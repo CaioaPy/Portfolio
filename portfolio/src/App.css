@@ -9,18 +9,4 @@ body, html {
     height: 100%;
     background-color: #F8F9FA ;
     color: #3F454B; 
-  }
-
-button {
-    background-color: #B59662 ;
-    color: #3F454B ;
-    padding-right: 25px;
-    padding-left: 25px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-button:hover {
-    cursor: pointer;
-    background-color: #F5B447;
 }
