@@ -12,7 +12,6 @@ function Home() {
                     <div className="introSubtitle">Full Stack Developer</div>
                     <div className="introText">Helloo! I'm Caio and this is my portfolio! Helloo! I'm Caio and this is my portfolio!Helloo! I'm Caio and this is my portfolio!Helloo! I'm Caio and this is my portfolio!Helloo! I'm Caio and this is my portfolio!Helloo! I'm Caio and this is my portfolio!Helloo! I'm Caio and this is my portfolio!Helloo! I'm Caio and this is my portfolio!Helloo! I'm Caio and this is my portfolio!Helloo! I'm Caio and this is my portfolio!Helloo! I'm Caio and this is my portfolio!</div>
                 </div>
-                <div className="introIcons"><button></button><button></button><button></button><button></button><button></button><button></button></div>
             </div>
             <div className="secondContainerHome">
                 <h1>section</h1>

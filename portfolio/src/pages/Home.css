@@ -27,7 +27,7 @@
     color: #222;
     margin: 20px;
     flex: 2;
-    max-width: 25%;
+    max-width: 55%;
 }
 
 .introSubtitle {
@@ -35,7 +35,7 @@
     font-weight: 550;
     color: #222;
     flex: 2;
-    margin-bottom: 20px;
+    margin-bottom: 5%;
 }
 
 .introText {
@@ -43,28 +43,7 @@
     font-weight: 500;
     color: #222;
     flex: 3;
-    margin-top: 20px;
-}
-
-.introIcons {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin: 5px;
-    flex: 2;
-}
-
-.introIcons button {
-    background-color: #6482A0;
-    color: white;
-    border: none;
-    padding: 30px 30px;
-    margin: 5px;
-    cursor: pointer;
-    font-size: 18px;
-    font-weight: 500;
-    border-radius: 5px;
+    margin-bottom: 15%;
 }
 
 .secondContainerHome {
