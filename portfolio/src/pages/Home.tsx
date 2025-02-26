@@ -13,11 +13,6 @@ function Home() {
                     <div className="introText">Helloo! I'm Caio and this is my portfolio! Helloo! I'm Caio and this is my portfolio!Helloo! I'm Caio and this is my portfolio!Helloo! I'm Caio and this is my portfolio!Helloo! I'm Caio and this is my portfolio!Helloo! I'm Caio and this is my portfolio!Helloo! I'm Caio and this is my portfolio!Helloo! I'm Caio and this is my portfolio!Helloo! I'm Caio and this is my portfolio!Helloo! I'm Caio and this is my portfolio!Helloo! I'm Caio and this is my portfolio!</div>
                 </div>
             </div>
-            <div className="secondContainerHome">
-                <h1>section</h1>
-                <img src="https://pe-images.s3.amazonaws.com/basics/cc/image-size-resolution/resize-images-for-print/image-cropped-8x10.jpg" alt="ee"></img>
-                <h2>test paragraph, lorem lorem lorem ipsun ipsum ipsum</h2>
-            </div>
         </div>
     );
 }
