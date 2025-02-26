@@ -9,7 +9,6 @@ function Home() {
             <div className="introIntro">Helloooo!</div>
             <div className="introName1">My name is </div>
             <div className="introName2">Caio Abner</div>
-            <div className="introP">I am a</div>
             <div className="startContainerHome">
                 <div className="imgIntro"><img src="https://pe-images.s3.amazonaws.com/basics/cc/image-size-resolution/resize-images-for-print/image-cropped-8x10.jpg" alt="ee"></img></div>
                 <div className="introTitle">
@@ -20,10 +19,10 @@ function Home() {
                     <div className="introSubtitle3">Developer</div>
                     <div className="buttonsContainer">
                         <div className="buttonsRow">
-                            <Link to="/contact" className="linkButton"><button className="getInTouchButton">Get In Touch</button></Link>
+                            <Link to="/about" className="linkButton"><button className="aboutButton">Who Am I?</button></Link>
                             <Link to="/projects" className="linkButton"><button className="projectsButton">My Projects</button></Link>
                         </div>
-                        <Link to="/about" className="linkButton"><button className="aboutButton">Who Am I?</button></Link>
+                        <Link to="/contact" className="linkButton"><button className="getInTouchButton">Get In Touch</button></Link>
                     </div>
                 </div>
             </div>
