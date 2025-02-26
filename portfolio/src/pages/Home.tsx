@@ -9,8 +9,12 @@ function Home() {
             <div className="startContainerHome">
                 <div className="imgIntro"><img src="https://pe-images.s3.amazonaws.com/basics/cc/image-size-resolution/resize-images-for-print/image-cropped-8x10.jpg" alt="ee"></img></div>
                 <div className="introTitle">Caio Abner
-                    <div className="introSubtitle">Full Stack Developer</div>
-                    <div className="introText">Helloo! I'm Caio and this is my portfolio! Helloo! I'm Caio and this is my portfolio!Helloo! I'm Caio and this is my portfolio!Helloo! I'm Caio and this is my portfolio!Helloo! I'm Caio and this is my portfolio!Helloo! I'm Caio and this is my portfolio!Helloo! I'm Caio and this is my portfolio!Helloo! I'm Caio and this is my portfolio!Helloo! I'm Caio and this is my portfolio!Helloo! I'm Caio and this is my portfolio!Helloo! I'm Caio and this is my portfolio!</div>
+                    <div className="introSubtitle">
+                        <div className="introSubtitle1">Full</div>
+                        <div className="introSubtitle2">Stack</div>
+                    </div>
+                    <div className="introSubtitle3">Developer</div>
+                    <div className="introText">Hellooo! My name is Caio and this is my portfolio! </div>
                 </div>
             </div>
         </div>

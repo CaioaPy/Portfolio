@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #E1E1E1;
+    background-color: #1A1A1A ;
     padding: 15px 0;
     position: fixed;
     width: 100%;
@@ -9,14 +9,14 @@
 } 
 
 .navbarH1 {
-    font-size: 24px;
+    font-size: 36px;
     font-weight: 500;
-    color: #3F454B;
+    color: #FFFFFF;
     margin-left: 20px;
     display: flex;
     justify-content: left;
-    padding: 0 20px;
-    margin-top: 10px;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
     flex: 1;
 }
   
@@ -30,8 +30,8 @@
 }
 
 .navContainer button {
-    background-color: #B59662;
-    color: white;
+    background-color: #333333 ;
+    color: #FFFFFF;
     padding: 10px 25px;
     margin: 0 5px;
     border: none;
@@ -39,6 +39,10 @@
     font-size: 18px;
     font-weight: 500;
     border-radius: 5px;
+}
+
+.navContainer button:hover {
+    background-color: #009c3f  ;
 }
   
 @media (max-width: 768px) {

@@ -24,24 +24,46 @@
 .introTitle {
     font-size: 48px;
     font-weight: 650;
-    color: #222;
     margin: 20px;
+    color: #FFFFFF;
     flex: 2;
     max-width: 55%;
 }
 
 .introSubtitle {
-    font-size: 36px;
-    font-weight: 550;
-    color: #222;
+    display: flex;
     flex: 2;
+}
+
+.introSubtitle1 {
+    font-size: 74px;
+    font-weight: 750;
+    color: #00FF66;
+    display: inline;
+    white-space: nowrap;
+    margin-right: 2%;
+}
+
+.introSubtitle2 {
+    font-size: 74px;
+    font-weight: 750;
+    color: #3366FF;
+    display: inline; 
+    white-space: nowrap;
+}
+
+.introSubtitle3 {
+    font-size: 74px;
+    font-weight: 750;
+    color: #FFFFFF;
+    margin-top: -2vh;
     margin-bottom: 5%;
+    margin-left: 5%;
 }
 
 .introText {
     font-size: 24px;
     font-weight: 500;
-    color: #222;
     flex: 3;
     margin-bottom: 15%;
 } 
