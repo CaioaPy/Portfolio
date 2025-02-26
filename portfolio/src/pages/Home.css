@@ -26,17 +26,26 @@ html, body {
     font-weight: 750;
     color: #FFFFFF;
     position: absolute;
-    top: 15vh;
+    top: 10vh;
     margin-left: 10vh;
 }
 
-.introName {
+.introName1 {
     font-size: 62px;
     font-weight: 750;
     color: #FFFFFF;
     position: absolute;
-    top: 22vh;
-    margin-left: 15vh;
+    top: 17vh;
+    margin-left: 20vh;
+}
+
+.introName2 {
+    font-size: 62px;
+    font-weight: 750;
+    color: #FFFFFF;
+    position: absolute;
+    top: 24vh;
+    margin-left: 30vh;
 }
 
 .introP {
@@ -44,8 +53,8 @@ html, body {
     font-weight: 750;
     color: #FFFFFF;
     position: absolute;
-    top: 29vh;
-    margin-left: 26vh;
+    top: 30vh;
+    margin-left: 50vh;
 }
 
 
@@ -56,6 +65,7 @@ html, body {
 }
 
 .introTitle {
+    top: -2vh;
     font-size: 48px;
     font-weight: 650;
     margin: 20px;
@@ -101,3 +111,75 @@ html, body {
     flex: 3;
     margin-bottom: 15%;
 } 
+
+button {
+    font-size: 24px;
+    font-weight: 500;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 5%;
+    cursor: pointer;
+}
+
+.buttonsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center; 
+}
+
+.buttonsRow {
+    display: flex;
+    gap: 20px; 
+}
+
+.getInTouchButton {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    font-size: 24px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: #00FF66;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 140px;
+    cursor: pointer;
+}
+
+.getInTouchButton:hover {
+    filter:drop-shadow(0px 0px 10px #00FF66);
+}
+
+.projectsButton {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    font-size: 24px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: #3366FF;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 140px;
+    cursor: pointer;
+}
+
+.projectsButton:hover {
+    filter:drop-shadow(0px 0px 10px #3366FF);
+}
+
+.aboutButton {
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+    font-size: 24px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: #333333;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 280px;
+    cursor: pointer;
+}
+
+.aboutButton:hover {
+    filter:drop-shadow(0px 0px 10px #333333);
+}
