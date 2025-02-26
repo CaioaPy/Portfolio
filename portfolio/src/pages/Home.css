@@ -1,22 +1,56 @@
+html, body {
+    overflow: hidden;
+}
+
 .ContainerHome {
     display: flex;
     flex-direction: column;
     align-items: center; 
     justify-content: center;
-    height: 100vh; 
+    height: 100vh;
+    overflow: hidden;
 }
 
 .startContainerHome {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     height: 100vh; 
-    margin-left: 12vh;
+    margin-left: 18vh;
+    position: relative;
+    top: 35vh;
 }
+
+.introIntro {
+    font-size: 62px;
+    font-weight: 750;
+    color: #FFFFFF;
+    position: absolute;
+    top: 15vh;
+    margin-left: 10vh;
+}
+
+.introName {
+    font-size: 62px;
+    font-weight: 750;
+    color: #FFFFFF;
+    position: absolute;
+    top: 22vh;
+    margin-left: 15vh;
+}
+
+.introP {
+    font-size: 62px;
+    font-weight: 750;
+    color: #FFFFFF;
+    position: absolute;
+    top: 29vh;
+    margin-left: 26vh;
+}
+
 
 .imgIntro {
     width: 50%;
-    height: auto;
     margin: 20px;
     flex: 0;
 }
