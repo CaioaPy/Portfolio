@@ -127,7 +127,7 @@ button {
     font-size: 24px;
     font-weight: 500;
     color: #FFFFFF;
-    background-color: #FFA500;
+    background-color: #3366FF;
     border: none;
     border-radius: 25px;
     padding: 15px 280px;
@@ -135,14 +135,14 @@ button {
 }
 
 .getInTouchButton:hover {
-    filter:drop-shadow(0px 0px 10px #FFA500);
+    filter:drop-shadow(0px 0px 10px #3366FF);
 }
 
 .projectsButton {
     font-size: 24px;
     font-weight: 500;
     color: #FFFFFF;
-    background-color: #3366FF;
+    background-color: #009c3f;
     border: none;
     border-radius: 25px;
     padding: 15px 140px;
@@ -150,14 +150,14 @@ button {
 }
 
 .projectsButton:hover {
-    filter:drop-shadow(0px 0px 10px #3366FF);
+    filter:drop-shadow(0px 0px 10px #009c3f);
 }
 
 .aboutButton {
     font-size: 24px;
     font-weight: 500;
     color: #FFFFFF;
-    background-color: #00FF66;
+    background-color: #009c3f;
     border: none;
     border-radius: 25px;
     padding: 15px 140px;
@@ -165,5 +165,5 @@ button {
 }
 
 .aboutButton:hover {
-    filter:drop-shadow(0px 0px 10px #00FF66);
+    filter:drop-shadow(0px 0px 10px #009c3f);
 }
