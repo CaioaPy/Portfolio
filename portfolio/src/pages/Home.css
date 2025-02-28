@@ -28,6 +28,9 @@ html, body {
     position: absolute;
     top: 15vh;
     margin-left: 11vh;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    animation-delay: 0.5s;
 }
 
 .introName1 {
@@ -37,6 +40,9 @@ html, body {
     position: absolute;
     top: 22vh;
     margin-left: 18vh;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    animation-delay: 1s;
 }
 
 .introName2 {
@@ -46,12 +52,18 @@ html, body {
     position: absolute;
     top: 29vh;
     margin-left: 25vh;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    animation-delay: 1.5s;
 }
 
 .imgIntro {
     width: 50%;
     margin: 20px;
     flex: 0;
+    opacity: 0;
+    animation: fadeIn 1s forwards, pump 2.5s infinite;
+    animation-delay: 2s, 2.2s;
 }
 
 .introTitle {
@@ -76,6 +88,9 @@ html, body {
     display: inline;
     white-space: nowrap;
     margin-right: 2%;
+    opacity: 0;
+    animation: fadeIn 1s forwards, pumpFullStack 2s infinite;
+    animation-delay: 2.5s, 2.7s
 }
 
 .introSubtitle2 {
@@ -84,6 +99,9 @@ html, body {
     color: #3366FF;
     display: inline; 
     white-space: nowrap;
+    opacity: 0;
+    animation: fadeIn 1s forwards, pumpFullStack 2s infinite;
+    animation-delay: 2.5s, 2.7s
 }
 
 .introSubtitle3 {
@@ -93,6 +111,9 @@ html, body {
     margin-top: -2vh;
     margin-bottom: 5%;
     margin-left: 5%;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    animation-delay: 3s
 }
 
 .introText {
@@ -132,6 +153,9 @@ button {
     border-radius: 25px;
     padding: 15px 280px;
     cursor: pointer;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    animation-delay: 4.5s
 }
 
 .getInTouchButton:hover {
@@ -147,6 +171,9 @@ button {
     border-radius: 25px;
     padding: 15px 140px;
     cursor: pointer;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    animation-delay: 4s
 }
 
 .projectsButton:hover {
@@ -162,8 +189,38 @@ button {
     border-radius: 25px;
     padding: 15px 140px;
     cursor: pointer;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    animation-delay: 3.5s
 }
 
 .aboutButton:hover {
     filter:drop-shadow(0px 0px 10px #009c3f);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes pump {
+    0%, 100% {
+        transform: scale(0.95);
+    }
+    50% {
+        transform: scale(1);
+    }
+}
+
+@keyframes pumpFullStack {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
 }
