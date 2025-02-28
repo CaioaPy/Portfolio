@@ -14,11 +14,11 @@ html, body {
 .startContainerHome {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items:start;
     height: 100vh; 
     margin-left: 18vh;
     position: relative;
-    top: 35vh;
+    top: 32vh;
 }
 
 .introIntro {
@@ -26,7 +26,7 @@ html, body {
     font-weight: 750;
     color: #FFFFFF;
     position: absolute;
-    top: 15vh;
+    top: 12vh;
     margin-left: 11vh;
     opacity: 0;
     animation: fadeIn 1s forwards;
@@ -38,7 +38,7 @@ html, body {
     font-weight: 750;
     color: #FFFFFF;
     position: absolute;
-    top: 22vh;
+    top: 19vh;
     margin-left: 18vh;
     opacity: 0;
     animation: fadeIn 1s forwards;
@@ -50,30 +50,32 @@ html, body {
     font-weight: 750;
     color: #FFFFFF;
     position: absolute;
-    top: 29vh;
+    top: 26vh;
     margin-left: 25vh;
     opacity: 0;
     animation: fadeIn 1s forwards;
     animation-delay: 1.5s;
 }
 
-.imgIntro {
-    width: 50%;
-    margin: 20px;
-    flex: 0;
+.imgIntro img {
+    width: 70%;
+    height: auto;
+    border-radius: 15px; 
     opacity: 0;
-    animation: fadeIn 1s forwards, pump 2.5s infinite;
-    animation-delay: 2s, 2.2s;
+    margin-top: 1vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s forwards;
+    animation-delay: 2s
 }
 
 .introTitle {
     top: -2vh;
     font-size: 48px;
     font-weight: 650;
-    margin: 20px;
+    margin: 0px;
     color: #FFFFFF;
     flex: 2;
-    max-width: 55%;
+    margin-left: -20vh;
 }
 
 .introSubtitle {
@@ -89,7 +91,7 @@ html, body {
     white-space: nowrap;
     margin-right: 2%;
     opacity: 0;
-    animation: fadeIn 1s forwards, pumpFullStack 2s infinite;
+    animation: fadeIn 1s forwards, pumpFullStack 2.5s infinite;
     animation-delay: 2.5s, 2.7s
 }
 
@@ -100,7 +102,7 @@ html, body {
     display: inline; 
     white-space: nowrap;
     opacity: 0;
-    animation: fadeIn 1s forwards, pumpFullStack 2s infinite;
+    animation: fadeIn 1s forwards, pumpFullStack 2.5s infinite;
     animation-delay: 2.5s, 2.7s
 }
 

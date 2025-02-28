@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import './Home.css';
+import introImage from '../assets/imgs/introImage.jpeg'
 
 function Home() {
     return (
@@ -10,7 +11,7 @@ function Home() {
             <div className="introName1">My name is </div>
             <div className="introName2">Caio Abner</div>
             <div className="startContainerHome">
-                <div className="imgIntro"><img src="https://pe-images.s3.amazonaws.com/basics/cc/image-size-resolution/resize-images-for-print/image-cropped-8x10.jpg" alt="ee"></img></div>
+                <div className="imgIntro"><img src={introImage} alt="IntroImage"></img></div>
                 <div className="introTitle">
                     <div className="introSubtitle">
                         <div className="introSubtitle1">Full</div>
