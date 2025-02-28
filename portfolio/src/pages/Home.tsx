@@ -1,11 +1,13 @@
 import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import './Home.css';
-import introImage from '../assets/imgs/introImage.jpeg'
+import introImage from '../assets/imgs/introImage.jpeg';
+import Background from '../components/Background';
 
 function Home() {
     return (
         <div className="containerHome">
+            <Background />
             <Navbar />
             <div className="introIntro">Helloooo!</div>
             <div className="introName1">My name is </div>

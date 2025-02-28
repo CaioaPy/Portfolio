@@ -203,18 +203,11 @@ button {
 @keyframes fadeIn {
     from {
         opacity: 0;
+        transform: translateY(15px);
     }
     to {
         opacity: 1;
-    }
-}
-
-@keyframes pump {
-    0%, 100% {
-        transform: scale(0.95);
-    }
-    50% {
-        transform: scale(1);
+        transform: translateY(0)
     }
 }
 
