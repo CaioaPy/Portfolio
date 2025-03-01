@@ -287,6 +287,7 @@ button {
         width: 100%;
         align-items: center;
         margin-left: 8vh;
+        margin-bottom: 5vh;
     }
 
     .getInTouchButton, .projectsButton, .aboutButton {

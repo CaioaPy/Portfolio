@@ -1,0 +1,39 @@
+html, body {
+    overflow: hidden;
+}
+
+.Background {
+    z-index: -1;
+}
+
+.startContainerAbout {
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    height: 100vh; 
+    margin-left: 7vh;
+    margin-top: 15vh;
+    color: #FFFFFF;
+    z-index: 1;
+}
+
+.startContainerAbout h1 {
+    z-index: 1;
+}
+
+.paragraph1 {
+    font-size: 18px;
+    font-weight: 300;
+    color: #FFFFFF;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    max-width: 50%;
+    z-index: 1;
+}
+
+.icons {
+    width: 70%;
+    height: auto;
+    margin-left: 7vh;
+    z-index: 1;
+}
