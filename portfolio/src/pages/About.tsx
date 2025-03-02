@@ -1,6 +1,10 @@
 import Background from "../components/Background";
 import Navbar from "../components/Navbar";
 import './About.css';
+import scrumCert from "../assets/imgs/certificationScrumFundation.png"
+import dataCert from "../assets/imgs/certificationDataAnalyticsEssentials.png"
+import cloudCert from "../assets/imgs/certificationCloudOracle.png"
+import AICert from "../assets/imgs/certificationAIOracle.png"
 
 function About() {
     return (
@@ -44,6 +48,12 @@ function About() {
                 </div>
                 <br></br>
                 <h1 className="h12">Certifications</h1>
+                <div className="certifications">
+                    <a href="www.credly.com/badges/2b629958-b1a5-4a0c-81b5-a4c8f39f7bf8" target="_blank"><img className="certImg1" src={scrumCert}></img></a>
+                    <a href="https://www.credly.com/badges/b9551de1-6043-494a-8713-53982de27e9a" target="_blank"><img className="certImg2" src={dataCert}></img></a>
+                    <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=2C1CBD113F292C7003C5C357F11586322554F0C8B4EBD6C6FDC19BC55AC9141C" target="_blank"><img className="certImg3" src={cloudCert}></img></a>
+                    <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=3A4FF1E80A57C4DAF5EB650348163560D1FCB864DF3C2DA6CF22CFC4181BCDA0" target="_blank"><img className="certImg4" src={AICert}></img></a>
+                </div>
             </div>
         </div>
     );

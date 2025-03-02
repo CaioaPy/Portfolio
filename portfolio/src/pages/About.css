@@ -1,7 +1,3 @@
-html, body {
-    overflow: hidden;
-}
-
 .Background {
     z-index: -1;
 }
@@ -146,6 +142,40 @@ html, body {
 
 .icons img:nth-child(19) {
     animation-delay: 5.5s;
+}
+
+.certifications img {
+    margin-right: 3vh;
+    margin-bottom: 1vh;
+    z-index: 1;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+
+.certImg3, .certImg4 {
+    width: 30vh;
+    height: auto;
+}
+
+.certifications img:nth-child(1) {
+    width: 20vh;
+    animation-delay: 6.5s;
+}
+
+.certifications img:nth-child(2) {
+    width: 20vh;
+    animation-delay: 6.8s;
+}
+
+.certifications img:nth-child(3) {
+    width: 80vh;
+    animation-delay: 7.1s;
+}
+
+.certifications img:nth-child(4) {
+    width: 40vh;
+    height: auto;
+    animation-delay: 7.4s;
 }
 
 @keyframes fadeIn {
