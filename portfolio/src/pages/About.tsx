@@ -55,6 +55,9 @@ function About() {
                     <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=3A4FF1E80A57C4DAF5EB650348163560D1FCB864DF3C2DA6CF22CFC4181BCDA0" target="_blank"><img className="certImg4" src={AICert}></img></a>
                 </div>
             </div>
+            <div>
+                <img className="chart" src="https://github-readme-stats.vercel.app/api/top-langs/?username=caioapy&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact"></img>
+            </div>
         </div>
     );
 }
