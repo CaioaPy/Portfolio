@@ -16,10 +16,9 @@ function Home() {
                 <div className="imgIntro"><img src={introImage} alt="IntroImage"></img></div>
                 <div className="introTitle">
                     <div className="introSubtitle">
-                        <div className="introSubtitle1">Full</div>
-                        <div className="introSubtitle2">Stack</div>
+                        <div className="introSubtitle1">Full Stack</div>
                     </div>
-                    <div className="introSubtitle3">Developer</div>
+                    <div className="introSubtitle2">Developer</div>
                     <div className="buttonsContainer">
                         <div className="buttonsRow">
                             <Link to="/about" className="linkButton"><button className="aboutButton">Who Am I?</button></Link>

@@ -62,7 +62,7 @@ html, body {
     height: auto;
     border-radius: 15px; 
     opacity: 0;
-    margin-top: 1vh;
+    margin-top: 1.5vh;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     animation: fadeIn 1s forwards;
     animation-delay: 2s;
@@ -96,17 +96,6 @@ html, body {
 }
 
 .introSubtitle2 {
-    font-size: 74px;
-    font-weight: 750;
-    color: #3366FF;
-    display: inline; 
-    white-space: nowrap;
-    opacity: 0;
-    animation: fadeIn 1s forwards, pumpFullStack 2.5s infinite;
-    animation-delay: 2.5s, 2.7s;
-}
-
-.introSubtitle3 {
     font-size: 74px;
     font-weight: 750;
     color: #FFFFFF;
@@ -150,7 +139,7 @@ button {
     font-size: 24px;
     font-weight: 500;
     color: #FFFFFF;
-    background-color: #3366FF;
+    background-color: #009c3f;
     border: none;
     border-radius: 25px;
     padding: 15px 280px;
@@ -161,7 +150,7 @@ button {
 }
 
 .getInTouchButton:hover {
-    filter:drop-shadow(0px 0px 10px #3366FF);
+    filter:drop-shadow(0px 0px 10px #009c3f);
 }
 
 .projectsButton {
@@ -273,11 +262,6 @@ button {
     }
 
     .introSubtitle2 {
-        font-size: 48px;
-        text-align: center;
-    }
-
-    .introSubtitle3 {
         font-size: 48px;
         text-align: center;
         margin-left: 7vh;
