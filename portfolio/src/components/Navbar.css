@@ -5,7 +5,8 @@
     width: 100%;
     top: 0;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
     z-index: 1000;
 } 
 
@@ -13,22 +14,25 @@
     font-size: 36px;
     font-weight: 500;
     color: #FFFFFF;
-    margin-left: 20px;
-    display: flex;
-    justify-content: left;
+    margin-left: 2vh;
     margin-top: 1vh;
     margin-bottom: 1vh;
-    flex: 1;
     text-decoration: none;
+    flex: 0.34;
+}
+
+.spacer {
+    flex: 2;
 }
   
 .navContainer {
     display: flex;
     justify-content: right;
     align-items: center;
-    max-width: 1100px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 0 20px;
+    flex: 3;
 }
 
 .navContainer button {

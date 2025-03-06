@@ -37,6 +37,7 @@
     width: auto;
     flex-grow: 1;
     margin-right: 7vh;
+    margin-bottom: 7vh;
 }
 
 .startContainerAbout h1 {
@@ -179,6 +180,10 @@
 
 .icons img:nth-child(20) {
     animation-delay: 5.7s;
+}
+
+.icons img:nth-child(21) {
+    animation-delay: 5.9s;
 }
 
 .certifications a {
