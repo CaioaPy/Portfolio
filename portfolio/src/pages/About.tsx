@@ -12,7 +12,7 @@ function About() {
             <Navbar />
             <Background />
             <div className="startContainerAbout">
-                <h1 className="h11">About</h1>
+                <h1 className="h11">About Me</h1>
                 <div className="mainText">
                     <p className="p1">
                         Hello, my name is Caio. I am a Full Stack Developer. Currently, I specialize in building scalable, secure, and high-performance systems.
@@ -25,25 +25,26 @@ function About() {
                     </p>
                     <br></br>
                     <div className="icons">
-                        <img className="icon1" src="https://skillicons.dev/icons?i=dotnet"></img>
-                        <img className="icon2" src="https://skillicons.dev/icons?i=cs"></img>
-                        <img className="icon3" src="https://skillicons.dev/icons?i=ts"></img>
-                        <img className="icon4" src="https://skillicons.dev/icons?i=react"></img>
-                        <img className="icon5" src="https://skillicons.dev/icons?i=vite"></img>
-                        <img className="icon6" src="https://skillicons.dev/icons?i=js"></img>
-                        <img className="icon7" src="https://skillicons.dev/icons?i=nodejs"></img>
-                        <img className="icon8" src="https://skillicons.dev/icons?i=py"></img>
-                        <img className="icon9" src="https://skillicons.dev/icons?i=html"></img>
-                        <img className="icon10" src="https://skillicons.dev/icons?i=css"></img>
-                        <img className="icon11" src="https://skillicons.dev/icons?i=aws"></img>
-                        <img className="icon12" src="https://skillicons.dev/icons?i=azure"></img>
-                        <img className="icon13" src="https://skillicons.dev/icons?i=docker"></img>
-                        <img className="icon14" src="https://skillicons.dev/icons?i=mysql"></img>
-                        <img className="icon15" src="https://skillicons.dev/icons?i=postgresql"></img>
-                        <img className="icon16" src="https://skillicons.dev/icons?i=git"></img>
-                        <img className="icon17" src="https://skillicons.dev/icons?i=postman"></img>
-                        <img className="icon18" src="https://skillicons.dev/icons?i=github"></img>
-                        <img className="icon19" src="https://skillicons.dev/icons?i=vercel"></img>
+                        <h1 className="techH1">My tech stack</h1>
+                        <img src="https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white"></img> 
+                        <img src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS"></img> 
+                        <img src="https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure"></img> 
+                        <img src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel"></img> 
+                        <img src="https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white" alt="C#"></img> 
+                        <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"></img> 
+                        <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"></img> 
+                        <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript"></img> 
+                        <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python"></img> 
+                        <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"></img> 
+                        <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="NodeJS"></img> 
+                        <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React"></img> 
+                        <img src="https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"></img> 
+                        <img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"></img> 
+                        <img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"></img> 
+                        <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git"></img> 
+                        <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"></img> 
+                        <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman"></img> 
+                        <img src="https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white" alt="Swagger"></img> 
                     </div>
                 </div>
                 <br></br>
@@ -55,8 +56,8 @@ function About() {
                     <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=3A4FF1E80A57C4DAF5EB650348163560D1FCB864DF3C2DA6CF22CFC4181BCDA0" target="_blank"><img className="certImg4" src={AICert}></img></a>
                 </div>
             </div>
-            <div>
-                <img className="chart" src="https://github-readme-stats.vercel.app/api/top-langs/?username=caioapy&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact"></img>
+            <div className="chartContainer">
+                <img className="chart" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CaioaPy&layout=donut&hide=html,css,java&bg_color=00000000&text_color=FFFFFF&hide_border=true"></img>
             </div>
         </div>
     );

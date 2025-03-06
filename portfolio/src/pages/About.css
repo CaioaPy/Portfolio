@@ -16,12 +16,16 @@
     flex-direction: column;
     align-items:start;
     height: 100vh; 
-    width: 80%;
+    width: 90%;
     margin-left: 7vh;
-    margin-top: 12vh;
+    margin-top: 16vh;
     color: #FFFFFF;
     z-index: 1;
-    flex-grow: 8;
+}
+
+.chartContainer{
+    width: 10%;
+    margin-right: 50vh;
 }
 
 .chart {
@@ -29,6 +33,7 @@
     opacity: 0;
     animation: fadeIn 1s forwards;
     animation-delay: 7.8s;
+    height: 40vh;
     width: auto;
     flex-grow: 1;
     margin-right: 7vh;
@@ -39,19 +44,23 @@
 }
 
 .h11 {
+    font-size: 34px;
+    font-weight: 300;
     opacity: 0;
     animation: fadeIn 1s forwards;
     animation-delay: 0.5s;
 }
 
 .h12{
+    font-size: 34px;
+    font-weight: 300;
     opacity: 0;
     animation: fadeIn 1s forwards;
     animation-delay: 6.0s;
 }
 
 .mainText {
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 300;
     color: #FFFFFF;
     margin-top: 2vh;
@@ -72,18 +81,21 @@
     animation-delay: 1.5s;
 }
 
+.techH1 {
+    font-size: 34px;
+    font-weight: 300;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    animation-delay: 2.0s;
+}
+
 .icons {
-    width: 80%;
-    height: auto;
-    margin-left: 7vh;
+    width: 100%;
     z-index: 1;
 }
 
 .icons img {
-    width: 6vh;
-    height: auto;
     margin-right: 1vh;
-    margin-bottom: 1vh;
     z-index: 1;
     opacity: 0;
     animation: fadeIn 1s forwards;
@@ -163,6 +175,10 @@
 
 .icons img:nth-child(19) {
     animation-delay: 5.5s;
+}
+
+.icons img:nth-child(20) {
+    animation-delay: 5.7s;
 }
 
 .certifications a {
