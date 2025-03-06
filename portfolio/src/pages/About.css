@@ -36,6 +36,7 @@
     height: 40vh;
     width: auto;
     flex-grow: 1;
+    margin-left: -2vh;
     margin-right: 7vh;
     margin-bottom: 7vh;
 }
@@ -66,7 +67,7 @@
     color: #FFFFFF;
     margin-top: 2vh;
     margin-bottom: 2vh;
-    max-width: 60%;
+    max-width: 80%;
     z-index: 1;
 }
 
