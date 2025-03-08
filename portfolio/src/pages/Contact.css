@@ -6,15 +6,24 @@ html, body {
 .mainContent {
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
     height: 100vh;
     margin-left: 7vh;
+}
+
+.mainH1 {
+    font-size: 74px;
+    font-weight: bold;
+    margin-top: 16vh;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    animation-delay: 0.2s;
 }
 
 .titleH1 {
     font-size: 34px;
     font-weight: 300;
-    margin-top: 16vh;
+    margin-top: 5vh;
     opacity: 0;
     animation: fadeIn 1s forwards;
     animation-delay: 0.5s;
@@ -25,6 +34,7 @@ html, body {
     font-weight: 300;
     margin-top: 2vh;
     max-width: 30%;
+    text-align: center;
     opacity: 0;
     animation: fadeIn 1s forwards;
     animation-delay: 1.0s;
