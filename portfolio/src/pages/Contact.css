@@ -52,13 +52,13 @@ html, body {
 .socialIcons {
     display: flex;
     justify-content: space-around;
-    width: 15%;
+    width: 25%;
     margin-top: 2vh;
 }
 
 .socialIcons img {
     height: auto;
-    width: 6vh;
+    width: 10vh;
     opacity: 0;
     animation: fadeIn 1s forwards;
 }
