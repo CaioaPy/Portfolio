@@ -4,7 +4,14 @@
     align-items: center;
     justify-content: top;
     width: 100%;
-    height: 100%;
+    height: 100vh;
+}
+
+.title {
+    font-size: 3em;
+    color: #FFFFFF;
+    margin-top: 10vh;
+    z-index: 1;
 }
 
 .projectsContainer {
@@ -13,22 +20,97 @@
     align-items: center;
     justify-content: top;
     height: 80vh;
-    width: 60%;
-    margin-top: 16vh;
+    max-height: 80vh;
+    width: 50%;
+    margin-top: 2vh;
     color: #FFFFFF;
     z-index: 1;
     background-color: #333333;
     border-radius: 50px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.pageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    height: 100vh;
+    width: 100%;
 }
 
 .projectCard {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 80%;
-    height: 20vh;
+    align-items: flex-start; 
+    justify-content: start;
+    position: relative;
+    width: 95%;
+    height: 60vh;
+    padding-top: 2vh;
     margin-top: 2vh;
     background-color: #1A1A1A;
     border-radius: 50px;
+    box-sizing: border-box;
+}
+
+.projectTitle {
+    font-size: 1.5em;
+    color: #FFFFFF;
+    margin: 0 0 1vh 2vh;
+}
+
+.projectDescription {
+    font-size: 1em;
+    color: #FFFFFF;
+    margin: 0 0 1vh 2vh;
+}
+
+.images {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.projectImage {
+    width: 75%;
+    height: auto;
+    margin-top: 1vh;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+.projectTech {
+    margin: 1vh 0 0 2vh;
+    display: flex;
+    align-items: center;
+}
+
+.projectTech h1 {
+    font-size: 1em;
+    color: #009c3f;
+    margin: 0 1vh 0 0;
+}
+
+.projectTech p{
+    font-size: 1em;
+    color: #FFFFFF;
+    margin-left: 0;
+}
+
+
+.projectIcons {
+    display: flex;
+    flex-direction: row;
+    margin-left: 80%;
+    margin-bottom: 1vh;
+}
+
+.projectIcon {
+    display: block;
+    width: 30%;
+    height: auto;
+    margin-left: 1vh;
 }
