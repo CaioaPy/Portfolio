@@ -12,8 +12,8 @@ html, body {
 }
 
 .mainH1 {
-    font-size: 74px;
-    font-weight: bold;
+    font-size: 92px;
+    font-weight: bolder;
     margin-top: 16vh;
     opacity: 0;
     animation: fadeIn 1s forwards;
@@ -21,8 +21,8 @@ html, body {
 }
 
 .titleH1 {
-    font-size: 34px;
-    font-weight: 300;
+    font-size: 52px;
+    font-weight:bold;
     margin-top: 5vh;
     opacity: 0;
     animation: fadeIn 1s forwards;
@@ -31,7 +31,7 @@ html, body {
 
 .contactText {
     font-size: 22px;
-    font-weight: 300;
+    font-weight: lighter;
     margin-top: 2vh;
     max-width: 30%;
     text-align: center;
@@ -41,8 +41,8 @@ html, body {
 }
 
 .callToSocials {
-    font-size: 34px;
-    font-weight: 300;
+    font-size: 52px;
+    font-weight: bold;
     margin-top: 5vh;
     opacity: 0;
     animation: fadeIn 1s forwards;
