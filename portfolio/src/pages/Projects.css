@@ -47,7 +47,7 @@
     justify-content: start;
     position: relative;
     width: 95%;
-    height: 60vh;
+    height: 70vh;
     padding-top: 2vh;
     margin-top: 2vh;
     background-color: #1A1A1A;
@@ -64,7 +64,7 @@
 .projectDescription {
     font-size: 1em;
     color: #FFFFFF;
-    margin: 0 0 1vh 2vh;
+    margin: 0 1vh 1vh 2vh;
 }
 
 .images {
@@ -83,7 +83,7 @@
 }
 
 .projectTech {
-    margin: 1vh 0 0 2vh;
+    margin: 2vh 0 0 2vh;
     display: flex;
     align-items: center;
 }
@@ -108,9 +108,13 @@
     margin-bottom: 1vh;
 }
 
+.projectIcons a {
+    margin-left: 1vh;
+}
+
 .projectIcon {
     display: block;
-    width: 30%;
+    width: 5vh;
     height: auto;
     margin-left: 1vh;
 }
