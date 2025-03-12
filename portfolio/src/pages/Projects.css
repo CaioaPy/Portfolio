@@ -1,3 +1,7 @@
+body, html {
+    overflow: scroll;
+}
+
 .start-container {
     display: flex;
     flex-direction: column;
@@ -5,30 +9,14 @@
     justify-content: top;
     width: 100%;
     height: 100vh;
+    overflow: scroll;
 }
 
 .title {
     font-size: 3em;
     color: #FFFFFF;
-    margin-top: 10vh;
+    margin-top: 12vh;
     z-index: 1;
-}
-
-.projectsContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: top;
-    height: 80vh;
-    max-height: 80vh;
-    width: 50%;
-    margin-top: 2vh;
-    color: #FFFFFF;
-    z-index: 1;
-    background-color: #333333;
-    border-radius: 50px;
-    overflow-y: scroll;
-    overflow-x: hidden;
 }
 
 .pageContainer {
@@ -43,26 +31,38 @@
 .projectCard {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; 
+    align-items: flex-start;
     justify-content: start;
     position: relative;
-    width: 95%;
-    height: 70vh;
+    width: 75%;
+    height: auto;
     padding-top: 2vh;
     margin-top: 2vh;
+    margin-bottom: 2vh;
+    padding-bottom: 4vh;
     background-color: #1A1A1A;
     border-radius: 50px;
     box-sizing: border-box;
 }
 
+.projectCard:nth-child(even) {
+    align-self: flex-end; /* Align even project cards to the right */
+}
+
+.projectCard:nth-child(odd) {
+    align-self: flex-start; /* Align odd project cards to the left */
+}
+
 .projectTitle {
-    font-size: 1.5em;
+    font-size: 2em;
+    font-weight: bold;
     color: #FFFFFF;
     margin: 0 0 1vh 2vh;
 }
 
 .projectDescription {
-    font-size: 1em;
+    font-size: 20px;
+    font-weight: normal;
     color: #FFFFFF;
     margin: 0 1vh 1vh 2vh;
 }
@@ -75,7 +75,7 @@
 }
 
 .projectImage {
-    width: 75%;
+    width: 30%;
     height: auto;
     margin-top: 1vh;
     border-radius: 30px;
@@ -83,6 +83,7 @@
 }
 
 .projectTech {
+    font-size: 1.25em;
     margin: 2vh 0 0 2vh;
     display: flex;
     align-items: center;
@@ -94,12 +95,11 @@
     margin: 0 1vh 0 0;
 }
 
-.projectTech p{
+.projectTech p {
     font-size: 1em;
     color: #FFFFFF;
     margin-left: 0;
 }
-
 
 .projectIcons {
     display: flex;
