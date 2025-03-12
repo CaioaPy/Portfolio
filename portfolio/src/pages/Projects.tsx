@@ -8,7 +8,7 @@ import PDFast from '../assets/imgs/projects/PDFast.png';
 
 function Projects() {
     return (
-        <div className="start-container">
+        <div className="projectsPageContainer">
             <Navbar />
             <Background />
             <div className="pageContainer">
@@ -26,7 +26,7 @@ function Projects() {
                         <h1>Technologies Used:</h1> 
                         <p>Python, Tkinter, Cohere AI</p>
                     </div>
-                    <div className="projectIcons" style={{marginLeft: "87%"}}>
+                    <div className="projectIcons" style={{marginLeft: "90%"}}>
                         <a href="https://github.com/CaioaPy/PDFast" target="_blank"><img src={github} className="projectIcon" alt="GitHub Icon"></img></a>
                     </div>
                 </div>

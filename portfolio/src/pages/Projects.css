@@ -2,14 +2,15 @@ body, html {
     overflow: scroll;
 }
 
-.start-container {
+.projectsPageContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: top;
     width: 100%;
-    height: 100vh;
+    height: 110vh;
     overflow: scroll;
+    padding-bottom: 10vh;
 }
 
 .title {
@@ -24,8 +25,10 @@ body, html {
     flex-direction: column;
     align-items: center;
     justify-content: top;
-    height: 100vh;
+    height: auto;
     width: 100%;
+    margin-bottom: 2vh;
+    padding-bottom: 10vh;
 }
 
 .projectCard {
@@ -41,16 +44,8 @@ body, html {
     margin-bottom: 2vh;
     padding-bottom: 4vh;
     background-color: #1A1A1A;
-    border-radius: 50px;
+    border-radius: 30px;
     box-sizing: border-box;
-}
-
-.projectCard:nth-child(even) {
-    align-self: flex-end; /* Align even project cards to the right */
-}
-
-.projectCard:nth-child(odd) {
-    align-self: flex-start; /* Align odd project cards to the left */
 }
 
 .projectTitle {
@@ -75,8 +70,8 @@ body, html {
 }
 
 .projectImage {
-    width: 30%;
-    height: auto;
+    width: 50%;
+    height: 100%;
     margin-top: 1vh;
     border-radius: 30px;
     object-fit: cover;
@@ -84,7 +79,7 @@ body, html {
 
 .projectTech {
     font-size: 1.25em;
-    margin: 2vh 0 0 2vh;
+    margin: 4vh 0 0 2vh;
     display: flex;
     align-items: center;
 }
@@ -104,8 +99,9 @@ body, html {
 .projectIcons {
     display: flex;
     flex-direction: row;
-    margin-left: 80%;
+    margin-left: 85%;
     margin-bottom: 1vh;
+    margin-top: -5vh;
 }
 
 .projectIcons a {
