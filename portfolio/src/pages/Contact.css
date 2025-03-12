@@ -8,7 +8,6 @@ html, body {
     flex-direction: column;
     align-items: center;
     height: 100vh;
-    margin-left: 7vh;
 }
 
 .mainH1 {
@@ -23,7 +22,21 @@ html, body {
 .titleH1 {
     font-size: 52px;
     font-weight:bold;
-    margin-top: 5vh;
+}
+
+.contactContainer {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1A1A1A;
+    border-radius: 30px;
+    box-sizing: border-box;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    width: 60%;
+    z-index: 1;
     opacity: 0;
     animation: fadeIn 1s forwards;
     animation-delay: 0.5s;
@@ -33,61 +46,24 @@ html, body {
     font-size: 22px;
     font-weight: lighter;
     margin-top: 2vh;
-    max-width: 30%;
+    max-width: 80%;
     text-align: center;
-    opacity: 0;
-    animation: fadeIn 1s forwards;
-    animation-delay: 1.0s;
 }
 
 .callToSocials {
     font-size: 52px;
     font-weight: bold;
-    margin-top: 5vh;
-    opacity: 0;
-    animation: fadeIn 1s forwards;
-    animation-delay: 1.5s;
+    margin-top: 2vh;
 }
 
 .socialIcons {
     display: flex;
-    justify-content: space-around;
-    width: 25%;
+    justify-content: space-between;
+    width: 30%;
     margin-top: 2vh;
 }
 
 .socialIcons img {
     height: auto;
     width: 10vh;
-    opacity: 0;
-    animation: fadeIn 1s forwards;
-}
-
-.socialIcons a {
-    opacity: 0;
-    animation: fadeIn 1s forwards;
-}
-
-.socialIcons a:nth-child(1) {
-    animation-delay: 2.0s;
-}
-
-.socialIcons img:nth-child(1) {
-    animation-delay: 2.0s;
-}
-
-.socialIcons a:nth-child(2) {
-    animation-delay: 2.3s;
-}
-
-.socialIcons img:nth-child(2) {
-    animation-delay: 2.3s;
-}
-
-.socialIcons a:nth-child(3) {
-    animation-delay: 2.6s;
-}
-
-.socialIcons img:nth-child(3) {
-    animation-delay: 2.6s;
 }
