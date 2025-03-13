@@ -66,6 +66,14 @@ body, html {
     animation-delay: 2.0s;
 }
 
+.pageContainer .projectCard:nth-child(4) {
+    animation-delay: 2.5s;
+}
+
+.pageContainer .projectCard:nth-child(5) {
+    animation-delay: 3.0s;
+}
+
 .projectTitle {
     font-size: 2em;
     font-weight: bold;
@@ -76,8 +84,9 @@ body, html {
 .projectDescription {
     font-size: 20px;
     font-weight: normal;
+    max-width: 93%;
     color: #FFFFFF;
-    margin: 2vh 1vh 1vh 5vh;
+    margin: 2vh 2vh 1vh 5vh;
 }
 
 .images {
