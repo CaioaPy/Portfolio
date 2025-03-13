@@ -404,7 +404,7 @@ button {
     }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 500px) {
     .ContainerHome{
         display: flex;
         flex-direction: column;
