@@ -135,13 +135,13 @@ button {
 }
 
 .getInTouchButton {
-    font-size: 24px;
+    font-size: 60%;
     font-weight: 500;
     color: #FFFFFF;
     background-color: #009c3f;
     border: none;
-    border-radius: 25px;
-    padding: 15px 280px;
+    border-radius: 2vh;
+    padding: 1.5vh 24vh;
     cursor: pointer;
     opacity: 0;
     animation: fadeIn 1s forwards;
@@ -153,13 +153,13 @@ button {
 }
 
 .projectsButton {
-    font-size: 24px;
+    font-size: 60%;
     font-weight: 500;
     color: #FFFFFF;
     background-color: #009c3f;
     border: none;
-    border-radius: 25px;
-    padding: 15px 140px;
+    border-radius: 2vh;
+    padding: 1.5vh 12vh;
     cursor: pointer;
     opacity: 0;
     animation: fadeIn 1s forwards;
@@ -167,17 +167,17 @@ button {
 }
 
 .projectsButton:hover {
-    filter:drop-shadow(0px 0px 10px #009c3f);
+    filter:drop-shadow(0px 0px 1vh #009c3f);
 }
 
 .aboutButton {
-    font-size: 24px;
+    font-size: 60%;
     font-weight: 500;
     color: #FFFFFF;
     background-color: #009c3f;
     border: none;
-    border-radius: 25px;
-    padding: 15px 140px;
+    border-radius: 2vh;
+    padding: 1.5vh 12vh;
     cursor: pointer;
     opacity: 0;
     animation: fadeIn 1s forwards;
@@ -185,7 +185,7 @@ button {
 }
 
 .aboutButton:hover {
-    filter:drop-shadow(0px 0px 10px #009c3f);
+    filter:drop-shadow(0px 0px 1vh #009c3f);
 }
 
 @keyframes fadeIn {
@@ -208,73 +208,195 @@ button {
     }
 }
 
-@media (max-width: 768px) {
-    body {
-        overflow-y: auto;
-        height: 100vh;
-    }
-    .ContainerHome {
-        padding-top: 25vh;
-    }
-    .startContainerHome {
+@media (max-width: 1380px) {
+    .ContainerHome{
+        display: flex;
         flex-direction: column;
-        align-items: center;
         justify-content: center;
-        margin-left: 0;
-        top: 0;
-        height: auto;
-        padding-top: 10vh;
     }
 
     .introIntro {
-        font-size: 42px;
-        position: static;
+        left: 46vh;
         margin-left: 0;
+        top: 15vh;
+        font-size: 52px;
         text-align: center;
-        margin-top: 25vh;
     }
-    
+
     .introName1 {
-        font-size: 42px;
-        position: static;
+        left: 45vh;
         margin-left: 0;
+        top: 21vh;
+        font-size: 52px;
         text-align: center;
     }
-    
+
     .introName2 {
-        font-size: 42px;
-        position: static;
+        left: 45vh;
         margin-left: 0;
+        top: 27vh;
+        font-size: 52px;
         text-align: center;
-        margin-bottom: -10vh;
+    }
+
+   .introTitle {
+        margin-left: 23vh;
+        top: 33vh;
+    }
+
+    .introSubtitle1 {
+        margin-left: 0;
+        top: 39vh;
+    }
+
+    .introSubtitle2 {
+        margin-left: -1vh;
+        top: 39vh;
     }
 
     .imgIntro img {
         width: 90%;
         margin-left: 3vh;
-    }
-
-    .introSubtitle1 {
-        font-size: 48px;
-        text-align: center;
-        margin-left: 15vh;
-    }
-
-    .introSubtitle2 {
-        font-size: 48px;
-        text-align: center;
-        margin-left: 7vh;
+        display: none;
     }
 
     .buttonsContainer {
-        width: 100%;
-        align-items: center;
-        margin-left: 8vh;
-        margin-bottom: 5vh;
+        margin-left: 0;
+        left: -15vh;
+        position: relative;
     }
 
     .getInTouchButton, .projectsButton, .aboutButton {
-        padding: 15px 80px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 800px) {
+    .ContainerHome{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .introIntro {
+        left: 30vh;
+        margin-left: 0;
+        top: 25vh;
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .introName1 {
+        left: 30vh;
+        margin-left: 0;
+        top: 30vh;
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .introName2 {
+        left: 30vh;
+        margin-left: 0;
+        top: 35vh;
+        font-size: 45px;
+        text-align: center;
+    }
+
+   .introTitle {
+        margin-left: 5vh;
+        margin-top: 7vh;
+        top: 45vh;
+    }
+
+    .introSubtitle1 {
+        margin-left: 0;
+        top: 45vh;
+    }
+
+    .introSubtitle2 {
+        margin-left: -1vh;
+        top: 50vh;
+    }
+
+    .imgIntro img {
+        width: 90%;
+        margin-left: 3vh;
+        display: none;
+    }
+
+    .buttonsContainer {
+        margin-left: 0;
+        left: -7vh;
+        position: relative;
+    }
+
+    .getInTouchButton, .projectsButton, .aboutButton {
+        padding: 1vh 6vh;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 660px) {
+    .ContainerHome{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .introIntro {
+        left: 23vh;
+        margin-left: 0;
+        top: 25vh;
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .introName1 {
+        left: 22vh;
+        margin-left: 0;
+        top: 30vh;
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .introName2 {
+        left: 22vh;
+        margin-left: 0;
+        top: 35vh;
+        font-size: 45px;
+        text-align: center;
+    }
+
+   .introTitle {
+        margin-left: 0vh;
+        margin-top: 7vh;
+        top: 45vh;
+    }
+
+    .introSubtitle1 {
+        margin-left: 0;
+        top: 45vh;
+    }
+
+    .introSubtitle2 {
+        margin-left: -1vh;
+        top: 50vh;
+    }
+
+    .imgIntro img {
+        width: 90%;
+        margin-left: 3vh;
+        display: none;
+    }
+
+    .buttonsContainer {
+        margin-left: 0;
+        left: -4vh;
+        position: relative;
+    }
+
+    .getInTouchButton, .projectsButton, .aboutButton {
+        padding: 1vh 6vh;
         font-size: 20px;
     }
 }
