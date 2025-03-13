@@ -8,6 +8,7 @@
     align-items: center;
     justify-content: space-around;
     z-index: 1000;
+    padding-right: 2vh;
 } 
 
 .navbarLink {

@@ -1,0 +1,32 @@
+html, body {
+    padding-right: 10px;
+}
+
+*::-webkit-scrollbar {
+    display: block;
+    width: 7px;
+    border-radius: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+    
+*::-webkit-scrollbar-thumb {
+    background-color: #009c3f;
+    border-radius: 10px;
+    border-right: none;
+    border-left: none;
+}
+
+*::-webkit-scrollbar-track-piece:end {
+    background: #333333;
+    border-radius: 10px;
+    margin-bottom: 30vh; 
+}
+
+*::-webkit-scrollbar-track-piece:start {
+    background: #333333; 
+    border-radius: 10px;
+    margin-top: 30vh;
+}

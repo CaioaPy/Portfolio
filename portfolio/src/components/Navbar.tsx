@@ -4,7 +4,7 @@ import './Navbar.css';
 function Navbar() {
     return (
         <div className="navbar">
-            <Link to="/" className="navbarLink">Caio Abner</Link>
+            <Link to="/" className="navbarLink" style={{marginLeft: "4vh"}}>Caio Abner</Link>
             <div className="navContainer">
                 <Link to="/"><button>Home</button></Link>
                 <Link to="/About"><button>About</button></Link>
