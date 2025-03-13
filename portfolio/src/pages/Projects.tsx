@@ -11,8 +11,8 @@ function Projects() {
         <div className="projectsPageContainer">
             <Navbar />
             <Background />
-            <div className="pageContainer">
             <h1 className="title">My Projects</h1>
+            <div className="pageContainer">
     
                 <div className="projectCard">
                     <div className="projectTitle">PDFast</div>

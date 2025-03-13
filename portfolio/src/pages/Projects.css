@@ -8,17 +8,20 @@ body, html {
     align-items: center;
     justify-content: top;
     width: 100%;
-    height: 110vh;
+    height: 100vh;
     overflow-x: hidden;
     overflow-y: scroll;
-    padding-bottom: 10vh;
+    padding-bottom: 0vh;
 }
 
 .title {
     font-size: 3em;
     color: #FFFFFF;
-    margin-top: 12vh;
+    margin-top: 15vh;
     z-index: 1;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    animation-delay: 0.5s;
 }
 
 .pageContainer {
@@ -29,7 +32,7 @@ body, html {
     height: auto;
     width: 100%;
     margin-bottom: 2vh;
-    padding-bottom: 10vh;
+    padding-bottom: 2vh;
 }
 
 .projectCard {
@@ -47,6 +50,20 @@ body, html {
     background-color: #1A1A1A;
     border-radius: 30px;
     box-sizing: border-box;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+
+.pageContainer .projectCard:nth-child(1) {
+    animation-delay: 1.0s;
+}
+
+.pageContainer .projectCard:nth-child(2) {
+    animation-delay: 1.5s;
+}
+
+.pageContainer .projectCard:nth-child(3) {
+    animation-delay: 2.0s;
 }
 
 .projectTitle {
