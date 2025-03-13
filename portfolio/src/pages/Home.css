@@ -436,20 +436,22 @@ button {
     }
 
    .introTitle {
-        margin-left: -3vh;
+        margin-left: -6vh;
         margin-top: 5vh;
         top: 50vh;
-        font-size: 40px;
+        font-size: 35px;
     }
 
     .introSubtitle1 {
         margin-left: 0;
         top: 50vh;
+        font-size: 35px;
     }
 
     .introSubtitle2 {
         margin-left: -1vh;
         top: 55vh;
+        font-size: 35px;
     }
 
     .imgIntro img {
