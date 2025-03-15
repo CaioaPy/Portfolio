@@ -99,7 +99,7 @@ function Projects() {
                     </div>
                     <div className="projectIcons">
                         <a href="https://github.com/CaioaPy/The-Ultimate-Luck-Test" target="_blank"><img src={github} className="projectIcon" alt="GitHub Icon"></img></a>
-                        <a href="https://www.tult.vercel.app" target="_blank"><img src={external} className="projectIcon" alt="External Link Icon"></img></a>
+                        <a href="https://tult.vercel.app" target="_blank"><img src={external} className="projectIcon" alt="External Link Icon"></img></a>
                     </div>
                 </div>
             </div>
